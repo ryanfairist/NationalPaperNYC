@@ -15,7 +15,93 @@
 
 </head>
 <body ng-app ="NationalPaperNYC">
+              <nav class="navbar navbar-default">
+                <div class="container-fluid">
+              
+                      <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                          <!--logo-->
+                        <a class="navbar-brand" href="#">NPNYC</a>
 
+                      </div>
+
+    <!-- Collapse-->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                  <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
+                  <li><a href="#">StateNews</a></li>
+
+                  <!--dropdowen parts-->
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Headlines<span class="caret"></span></a>
+
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Upper East Side</a></li>
+                      <li><a href="#">Midtown East</a></li>
+                      <li><a href="#">East Village</a></li>
+                      <li><a href ="#">Lower East Side</a></li>
+                      <li><a href="#">Financial District</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#">West Side News</a></li>
+                    </ul>
+                  </li>
+                </ul>
+
+        <ul class="nav navbar-nav navbar-left">
+        
+           <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">News Sections<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Politics</a></li>
+                    <li><a href="#">Art</a></li>
+                    <li><a href="#">Technogoly</a></li>
+                    <li><a href="#">Finance</a></li>
+                    <li><a href="#">Business</a></li>
+                  </ul>
+            </li>
+            <li><a href="#">Subscribe</a></li>
+      </ul>
+
+      <!--search part-->
+             <form class="navbar-form navbar-right" role="search">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Search News">
+                    </div>
+                    <button type="submit" class="btn btn-default">Go</button>
+              </form>
+
+            </div><!-- navbar-collapse -->
+          </div><!-- container-fluid -->
+        </nav>
+
+<!--header-->
+      <header class = "container-fluid">
+        <h1>National Paper NYC</h1>
+        <p>Our news creates the nation</p>
+
+        <!--PUT ANGULAR DATE ACTIVE DATE HERE MEANS YOU NEED TWO DIRECTIVES MAYBE-->
+      </header>
+    
+    <!--latest News-->
+    <main class="container-fluid">
+        <div class ="row">
+
+          <div class="col-md-6">
+            <h4>Dog Gives Birth to Baby Squirrel</h4>
+            <img class ="img-responsive" src ="img/squirrelcp.jpg" alt="squirrel"/>
+          </div>
+
+          <div class ="col-md-4 pull-right">
+          </div>
+
+      </div>
+    </main>
+    
 
 
 

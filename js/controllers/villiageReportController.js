@@ -1,5 +1,5 @@
 app.controller('villiageReportController',['$scope', function($scope){
-	$scope.article=[
+	$scope.articles=[
 		//Dropdown a snip bit of the article  and click for full article..a link..-->
 		{
 		img: "img/doorFrontS.jpg",

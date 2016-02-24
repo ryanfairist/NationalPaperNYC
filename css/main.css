@@ -1,3 +1,6 @@
+body{
+	font-family:"Oswald",Arial;
+}
 nav {
 	padding-bottom: 0px;
 }
@@ -5,4 +8,17 @@ header h1, p{
 	text-align: center;
 	margin:0px;
 	padding:0px;
+}
+header h1{
+	font-family:'Philosopher';
+}
+button{
+	border-color:#1aa3ff;
+}
+.line{
+	border:1px solid #1aa3ff;
+    margin-bottom:2px;
+}
+main img {
+	float:left;
 }

@@ -28,5 +28,7 @@ app.controller('villiageReportController',['$scope', function($scope){
 	   }
 
 		]
+
+		$scope.today=new Date();
 	}]);
 

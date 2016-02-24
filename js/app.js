@@ -1,1 +1,1 @@
-var app =angular.module('NationlPaperNYC',[]);
+var app =angular.module('NationalPaperNYC',[]);

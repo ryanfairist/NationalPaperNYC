@@ -1,9 +1,9 @@
-app.directive('headline', function(){
+app.directive('headline',function(){
 	return{
 		restrict: 'E',
 		scope:{
 			info:'='
 		},
-		templateUrl:"js/directives/sport/html"
+		templateUrl:"js/directives/headline/html"
 	}
 });

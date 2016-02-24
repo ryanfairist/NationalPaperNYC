@@ -4,6 +4,6 @@ app.directive('headline',function(){
 		scope:{
 			info:'='
 		},
-		templateUrl:"js/directives/headline/html"
+		templateUrl:"js/directives/headline.html"
 	}
 });

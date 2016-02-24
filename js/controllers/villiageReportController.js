@@ -3,22 +3,22 @@ app.controller('villiageReportController',['$scope', function($scope){
 		//Dropdown a snip bit of the article  and click for full article..a link..-->
 		{
 		img: "img/doorFrontS.jpg",
-		title: "Kid Builds 87th Street apt </br>with PayDough",
+		title: "Kid Builds 87th Street Apt with PayDough",
 		author: "Greg Linkseronni"
        },
        {
-        img:"img/kidsPlayS",
+        img:"img/kidsPlayS.jpg",
         title:"Man in Red or Child in Red",
         author: "Colin Taylor"
        },
        {
        	img:"img/dinoS.jpg",
-       	title: "Dinos will Take Over </br> Central Park",
+       	title: "Dinos will Take Over Central Park",
        	author:"Garrett Stevens"
 	   },
 	   {
 	   	img:"img/grandCentralS.jpg",
-	   	title: "Clean Car Trains</br> Do you have a ticket?",
+	   	title: "Clean Car Trains Do you have a ticket?",
 	   	author: "Allie Levitas"
 	   },
 	   {

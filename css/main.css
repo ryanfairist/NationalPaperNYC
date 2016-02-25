@@ -23,7 +23,12 @@ main img {
 	float:left;
 	padding:10px;
 }
-main h4{
+.right img {
+	float:right;
+	padding:10px;
+}
+main h4, .right h4{
 	font-weight: bold;
 	margin-left: 32px;
+	margin-top: 15px;
 }

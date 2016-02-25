@@ -99,28 +99,28 @@
     <!--latest News-->
     <main class="container-fluid">
         <div class ="row">
-
-          <div class="col-md-6">
+          <article>
+          <div class="col-md-6 pull-left">
             <h4>Dog Gives Birth to Baby Squirrel</h4>
             <img class ="img-responsive" src ="img/squirrelM.jpg" alt="squirrel"/>
             <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellatAt vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat</p>
           </div>
 
+        </article>
 
 
 
 
+              <div class = "SidePanel" ng-controller="villiageReportController">
+                <div class ="container">
 
-          <div class = "SidePanel" ng-controller="villiageReportController">
-            <div class ="container" style="height: 1600px;">
+                  <div ng-repeat="article in articles">
+                    <headline info="article"></headline>
 
-            <div ng-repeat="article in articles">
-              <headline info="article"></headline>
-
-              <!-- NEED NOW TO SET UP YOUR HEADLINE.JS FILE WITH NORMAL HTML WITH {{INFO.AUTHOR}} ETC.-->
+                  <!-- NEED NOW TO SET UP YOUR HEADLINE.JS FILE WITH NORMAL HTML WITH {{INFO.AUTHOR}} ETC.-->
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
 
       </div>
     </main>

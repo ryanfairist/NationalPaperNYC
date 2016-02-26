@@ -39,14 +39,14 @@ main p , .right p{
 .panel {
 	margin-top: 10px;
 }
-#mta, #flip {
+/*#mta, #flip {
     padding: 0px;
     text-align: center;
-   color:red;
+    color:red;
   
 }
 
 #mta{
-    padding: 10px;
+    padding:0px;
     display: none;
-}
+}*/

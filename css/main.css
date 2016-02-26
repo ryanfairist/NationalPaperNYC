@@ -1,7 +1,7 @@
 body{
 	font-family:"Oswald",Arial;
 }
-nav {
+nav  {
 	padding-bottom: 0px;
 }
 header h1, p{
@@ -35,4 +35,11 @@ main h4, .right h4{
 
 main p , .right p{
 	text-align: justify;
+}
+.panel {
+	margin-top: 10px;
+	border-right: none;
+}
+.panel-heading {
+	background-color: #cce0ff;
 }

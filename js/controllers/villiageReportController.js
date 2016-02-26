@@ -25,10 +25,20 @@ app.controller('villiageReportController',['$scope', function($scope){
 	   	img:"img/oneEuroS.jpg",
 	   	title: "East Village Dollar or Euro",
 	   	author: "Erin Middleton"
-	   }
+	   },
+	   four:"Delayed",
+	   five:"For",
+	   six:"Ever"
+	}
 
 		]
 
-		$scope.today=new Date();
+		//$scope.today=new Date();
 	}]);
 
+app.controller('myCtrl', function($scope) {
+    $scope.showMe = false;
+    $scope.myFunc = function() {
+        $scope.showMe = !$scope.showMe;
+    }
+});

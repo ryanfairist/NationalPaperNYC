@@ -38,8 +38,4 @@ main p , .right p{
 }
 .panel {
 	margin-top: 10px;
-	border-right: none;
-}
-.panel-heading {
-	background-color: #cce0ff;
 }

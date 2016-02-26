@@ -32,6 +32,7 @@ main h4, .right h4{
 	margin-left: 32px;
 	margin-top: 15px;
 }
-.Right-Panel{
-	float: right;
+
+main p , .right p{
+	text-align: justify;
 }

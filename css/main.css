@@ -39,6 +39,9 @@ main p , .right p{
 .panel {
 	margin-top: 10px;
 }
+.line li {
+	list-style: none;
+}
 /*#mta, #flip {
     padding: 0px;
     text-align: center;

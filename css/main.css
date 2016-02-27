@@ -38,6 +38,7 @@ main p , .right p{
 }
 .panel {
 	margin-top: 10px;
+	float: right;
 }
 
 

@@ -18,7 +18,7 @@ app.controller('villiageReportController',['$scope', function($scope){
 	   },
 	   {
 	   	img:"img/grandCentralS.jpg",
-	   	title: "Clean Car Trains Do you have a ticket?",
+	   	title: "Clean Car Trains, Do you have a ticket?",
 	   	author: "Allie Levitas"
 	   },
 	   {

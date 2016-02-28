@@ -41,15 +41,38 @@ main p , .right p{
 	float: right;
 }
 
+#mta {
+    margin-left:50px;
 
+}
+#status {
+	display:none;
+	color:red;
+	font-weight: bold;
+}
+.btn-danger, #status{
+	margin-left: 43%;
+}
+
+@media only screen and (max-width: 967px) {
+	 #mta {
+	 	margin-left: 0px;
+	 }
+}
+@media only screen and (max-width: 936px) {
+	.btn-danger, #status{
+		margin-left:24%;
+	}
 /*#mta, #flip {
     padding: 0px;
     text-align: center;
     color:red;
   
 }
-
-#mta{
+*/
+#status{
     padding:0px;
     display: none;
-}*/
+}
+
+ 

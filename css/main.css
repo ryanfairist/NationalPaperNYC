@@ -36,6 +36,9 @@ main h4, .right h4{
 main p , .right p{
 	text-align: justify;
 }
+
+
+
 .panel {
 	margin-top: 10px;
 	float: right;
@@ -73,7 +76,10 @@ main p , .right p{
 	color:#000;
 	font-family:Arial;
 	font-weight:bold;
-	}
+}
+
+
+
 @media only screen and (max-width: 967px) {
 	 #mta {
 	 	margin-left: 0px;
@@ -83,6 +89,16 @@ main p , .right p{
 	.btn-danger, #status{
 		margin-left:24%;
 	}
+		
+	
+}
+
+
+
+@media only screen and (max-width: 387px) {
+footer h2{
+	font-size:6px;
+}
 }
 
 #status{

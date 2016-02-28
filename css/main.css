@@ -76,7 +76,11 @@ main p , .right p{
 }
 
 /*carousel*/
-section h1{
-	color:#fff;
+.newRestaurant  h1{
+	color:#1aa3ff;
 }
+.item{
+	height:300px;
+}
+
  

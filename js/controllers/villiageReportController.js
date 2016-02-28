@@ -3,7 +3,7 @@ app.controller('villiageReportController',['$scope', function($scope){
 		//Dropdown a snip bit of the article  and click for full article..a link..-->
 		{
 		img: "img/doorFrontS.jpg",
-		title: "Kid Builds 87th Street Apt with PayDough",
+		title: "Kid Builds 87th Street Apt with PlayDough",
 		author: "Greg Linkseronni"
        },
        {
